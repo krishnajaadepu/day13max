@@ -25,8 +25,8 @@ public class Generics {
 
 
     public static void main(String[] args) {
-       maximumOfVariables();
-       maximumOfVariables();
+       maximumOfVariables(4,5,66);
+       maximumOfVariables(1.1f,2.3f,33f);
        maximumOfVariables("mango", "apple", "pineapple");
     }
 
