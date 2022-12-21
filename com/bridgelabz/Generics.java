@@ -21,15 +21,15 @@ void maximumOfVariables(){
 }
 
 public static void main(String[] args) {
-    Integer[] arr1 = {12,4,7,10,6};
+    Integer[] arr1 = {1,1,1,1,1};
     Generics <Integer> obj1 = new Generics(arr1);
     obj1.maximumOfVariables();
 
-    String[] arr2 = {"kavya", "jaya", "ganesh"};
+    String[] arr2 = {"krishnaja", "sai", "adepu"};
     Generics <String> obj2 = new Generics(arr2);
     obj2.maximumOfVariables();
 
-    Float[] arr3 = {2.1f, 5.4f, 6.0f};
+    Float[] arr3 = {1.1f, 1.2f, 1.3f};
     Generics <Float> obj3 = new Generics(arr3);
     obj3.maximumOfVariables();
 }
